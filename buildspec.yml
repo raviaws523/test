@@ -3,7 +3,7 @@ phases:
   pre_build:
     command:
        - npm install
-  dist:
+  build:
     command:
       - npm run build
   post_build:
