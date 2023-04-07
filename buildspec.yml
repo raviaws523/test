@@ -1,0 +1,12 @@
+version:0.2
+
+phases:
+  pre_build:
+    command:
+       - npm install
+  build:
+    command:
+      - npm run build
+  post_build:
+    command:
+      - aws s3 cp --recursive ./build s3://112demo/
