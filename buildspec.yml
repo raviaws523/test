@@ -8,8 +8,6 @@ phases:
       - npm run build
   post_build:
     commands:
-      - aws s3 cp --recursive --acl public-read dist/* s3://112demo/ --region "ap-south-1"
-artifacts:
-  files:
-    - '**/*'
-  base-directory: dist  
+      - AKIATUFLC3SFWLFMHZPK
+      - 3S2wYOcyGx2kgIb5GCremzb7PkQ4RLIqI7vCXuBL
+      - aws s3 cp --recursive dist/* s3://112demo/ --region "ap-south-1"
