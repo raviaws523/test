@@ -28,6 +28,7 @@
                 <option>Everyone</option>
                 <option>Friends</option>
                 <option>Private</option>
+                <option>demo</option>
                 </select>
             </div>
             <textarea
