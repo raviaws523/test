@@ -29,6 +29,7 @@
                 <option>Friends</option>
                 <option>Private</option>
                 <option>demo</option>
+                <option>test</option>
                 </select>
             </div>
             <textarea
