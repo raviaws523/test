@@ -9,3 +9,8 @@ phases:
   post_build:
     command:
       - aws s3 cp --recursive dist/* s3://112demo/
+  artifacts:
+  files:
+    - '**/*'
+  base-directory: "dist"
+  discard-paths: yes    
